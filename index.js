@@ -23,5 +23,9 @@ window.addEventListener("load", function(){
         document.querySelectorAll("h2")[i].classList.add("animate__animated",  "animate__jackInTheBox",  "animate__infinite", "animate__slower");
     }
 
+    
+    setTimeout(function(){
+        document.getElementById("alert").setAttribute("hidden", "");
+    }, 5000)
 
 })
