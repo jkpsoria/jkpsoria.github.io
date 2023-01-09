@@ -38,3 +38,11 @@ h5 {
     margin-left: 50px;
 }
 
+@media only screen and (max-width: 800px) {
+
+    .exp-edu{
+        margin-left: 0;
+    }
+
+  }
+
